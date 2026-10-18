@@ -2,8 +2,7 @@ package micheal65536.fountain.connector.plugin;
 
 import org.jetbrains.annotations.NotNull;
 
-public interface Logger
-{
+public interface Logger {
 	void error(@NotNull String message);
 
 	void error(@NotNull String message, @NotNull Throwable throwable);
